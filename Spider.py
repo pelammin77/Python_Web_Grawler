@@ -3,8 +3,7 @@ file: Spider.py
 Spider class
 author Petri Lamminaho 
 File stared 25.5.2017 
-file modified 25.5.2017  Class made 
-
+file modified 25.5.2017  Class made not tested  
 """
 
 from urllib.request import urlopen
@@ -72,6 +71,7 @@ class Spider:
                 html_str = html_bytes.decode("utf-8")
             finder = LinkFinder(Spider.base_url, page_url)
             finder.feed(html_str)
+
         except:
             print("Error: can not find page")
             return set()
