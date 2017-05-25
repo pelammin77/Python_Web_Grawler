@@ -35,6 +35,6 @@ class LinkFinder(HTMLParser):
 
 
 #test
-finder = LinkFinder()
-finder.feed('<html> <head> <title> Testing </title> </head>'
-           '<body> <h1> Parse page </h1> </body> </html>')
+#finder = LinkFinder()
+#finder.feed('<html> <head> <title> Testing </title> </head>'
+          # '<body> <h1> Parse page </h1> </body> </html>')
