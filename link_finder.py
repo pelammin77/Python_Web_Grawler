@@ -3,12 +3,12 @@ File: LinkFinder.py
 Author: Petri Lamminaho 
 Simple class that returns links from given web page
 Made 24-25 May 2017
-
-
 """
 
 from html.parser import HTMLParser
 from urllib import parse
+
+
 
 
 class LinkFinder(HTMLParser):
@@ -29,7 +29,7 @@ class LinkFinder(HTMLParser):
         return self. __links
 
     def error(self, message):
-        pass
+        print("Error")
 
 
 
