@@ -10,5 +10,5 @@ Gets all links from given website
 
    **Example:** webCrawler cnn http:\cnn.com\
 
-    **2. Just type webCrawler and give project name and give project name and site**
+**2. Just type webCrawler and give project name and give project name and site**
 
